@@ -20,3 +20,12 @@ def reverse_with_loop_function(some_string):
 
 my_second_result = reverse_with_loop_function("ecnalubma")
 print(my_second_result)
+
+
+# Third approach with using reversed and join
+def reverse_with_revered_function(some_input):
+    return "".join(reversed(some_input))
+
+
+my_third_result = reverse_with_revered_function("ecnalubma")
+print(my_third_result)
